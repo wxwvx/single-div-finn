@@ -1,0 +1,55 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1798c7;
+}
+
+.finn {
+  width: 150px;
+  height: 108px;
+  border: 2px solid #000;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  background-color: #fff;
+  transform: rotate(-5deg);
+  background-image: radial-gradient(black 3px, transparent 3px), radial-gradient(black 3px, transparent 3px), radial-gradient(#fed2c0 58px, black 58px, black 60px, transparent 61px);
+  background-size: 8px 12px, 8px 12px, 130px 90px;
+  background-position: 46px 44px, 110px 43px, 15px 13px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.finn:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -42px;
+  bottom: -20px;
+  left: -2px;
+  right: -2px;
+  background-image: radial-gradient(at center 0px, white 75px, black 75px, black 81px, transparent 81px), radial-gradient(at center 22px, white 61px, black 61px, black 65px, transparent 65px), radial-gradient(at 14px 51px, white 12px, black 12px, black 13.6px, transparent 13.6px), radial-gradient(at 14px 51px, white 12px, black 12px, black 13.6px, transparent 13.6px);
+  background-size: 155px 14px, 128px 10px, 42px 53px, 42px 53px;
+  background-position: 0px 148px, 12px 31px, 0px -12px, 126px -12px;
+  background-repeat: no-repeat;
+}
+
+.finn:after {
+  content: "";
+  display: block;
+  width: 52px;
+  height: 23px;
+  position: absolute;
+  top: 50px;
+  left: 57px;
+  background-repeat: no-repeat;
+  background-image: radial-gradient(at 12px -7px, #ffd2bf 19px, black 19px, black 21px, transparent 21px), radial-gradient(at center 45%, #ffd2bf 23px, #ffd2bf 23px, transparent 23px), radial-gradient(at center -2px, white 4px, black 4px, black 4px, transparent 5px), radial-gradient(at center -2px, white 4px, black 4px, black 4px, transparent 5px), radial-gradient(at center -2px, white 4px, black 4px, black 4px, transparent 5px), radial-gradient(at 6px 9px, #ffc0c2 4px, black 4px, black 5px, transparent 5px), radial-gradient(#62230d 19px, #1d0000 19px, #1d0000 21px, white 21px, white 22px, transparent 22px);
+  background-size: 42px 12px, 40px 35px, 8px 10px, 8px 10px, 8px 10px, 20px 9px, 52px 25px;
+  background-position: 10px 3px, 5px -30px, 11px 1px, 19px 2px, 30px 0px, 22px 11px, center center;
+}
